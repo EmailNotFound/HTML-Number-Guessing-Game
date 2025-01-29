@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Quicksand:wght@400;500;600&display=swap');
+
+body {
+    background-color: #e6f3ff;
+    font-family: 'Quicksand', sans-serif;
+    min-height: 100vh;
+    padding: 20px 0;
+}
+
+h1, h2 {
+    font-family: 'Fredoka', sans-serif;
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.game-rules {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.game-status {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.score, .attempts {
+    margin: 10px 0;
+    color: #34495e;
+}
+
+.input-group {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#guessInput {
+    border: 2px solid #bdc3c7;
+    border-radius: 10px 0 0 10px;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+}
+
+#guessInput:focus {
+    border-color: yellowgreen;
+    box-shadow: 0 0 0 0.2rem rgba(154, 205, 50, 0.25);
+}
+
+.btn {
+    padding: 12px 25px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary, .btn-success {
+    background-color: yellowgreen !important;
+    border-color: yellowgreen !important;
+    color: white !important;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    background-color: #7ba829 !important;
+    border-color: #7ba829 !important;
+    transform: translateY(-2px);
+}
+
+#submitGuess {
+    border-radius: 0 10px 10px 0;
+}
+
+#messageArea {
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.alert {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.alert-success {
+    background-color: #dff7e5;
+    color: #247d3d;
+}
+
+.alert-danger {
+    background-color: #ffe8e8;
+    color: #dc3545;
+}
+
+.alert-info {
+    background-color: #e8f4ff;
+    color: #0dcaf0;
+}
+
+.alert-warning {
+    background-color: #fff8e8;
+    color: #ffc107;
+}
+
+.game-controls {
+    margin-top: 40px;
+}
+
+.game-controls .btn {
+    margin: 0 10px;
+    min-width: 150px;
+}
